@@ -14,5 +14,9 @@ Check the next files to understand it:
 * GoogleDriveManager__Server.cs / GoogleDriveManager__Client.cs
 * GoogleDriveSessionManager__Server.cs / GoogleDriveSessionManager__Client.cs
 
+GoogleDriveSessionManager__*(string serviceAccountEmail, string certificateBase64) constructors requires email and p12 certificate of your Google Drive service account. 
+
+In two words, service accounts are created to build server-to-server communications in Google Drive, you can read more [here](https://developers.google.com/identity/protocols/OAuth2ServiceAccount).
+
 # How to build my own cloud shell?
 Nice question! Understand the CloudShell workflow first, and implement ISessionManager__Server / ISessionManager__Clients for your service.
