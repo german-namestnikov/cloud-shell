@@ -14,7 +14,7 @@ Check the next files to understand it:
 * GoogleDriveManager__Server.cs / GoogleDriveManager__Client.cs
 * GoogleDriveSessionManager__Server.cs / GoogleDriveSessionManager__Client.cs
 
-GoogleDriveSessionManager__*(string serviceAccountEmail, string certificateBase64) constructors requires email and p12 certificate of your Google Drive service account. 
+GoogleDriveSessionManager__*(string serviceAccountEmail, string certificateBase64) constructors require email and p12 certificate of your Google Drive service account. 
 
 In two words, service accounts are created to build server-to-server communications in Google Drive, you can read more [here](https://developers.google.com/identity/protocols/OAuth2ServiceAccount).
 
